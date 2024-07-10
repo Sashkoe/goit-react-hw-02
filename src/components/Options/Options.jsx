@@ -22,7 +22,7 @@ export default function Options({ buttons, updateFeedback, totalFeedback }) {
           Reset
         </button>
       ) : (
-        <p className={clsx(css.thinking)}>🤔</p>
+        <p className={clsx(css.thinking)}></p>
       )}
     </ul>
   );
